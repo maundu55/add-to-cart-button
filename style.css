@@ -1,0 +1,23 @@
+body{
+    font-family: arial;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.add-to-cart{
+    font-size: 15px;
+    padding: 10px 15px;
+    border: none;
+    background-color: rgb(24, 53, 53);
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .3s;
+}
+.add-to-cart:hover{
+    background-color: rgb(36, 136, 136);
+}
